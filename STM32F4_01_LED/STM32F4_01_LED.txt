@@ -1,0 +1,45 @@
+Configuration	STM32F4_01_LED
+STM32CubeMX 	4.25.0
+Date	04/01/2018
+MCU	STM32F407VGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+59	PD12	GPIO_Output	LED4 Green
+60	PD13	GPIO_Output	LED3 Orange
+61	PD14	GPIO_Output	LED5 Red
+62	PD15	GPIO_Output	LED6 Blue
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : STM32F4_01_LED
+Project Folder : C:\Users\Zihan Chen\workspace\STM32F4_01_LED
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F4 V1.21.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
